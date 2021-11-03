@@ -1,0 +1,5 @@
+C:\Users\bugga\source\repos\WpfApp6\WpfApp6\obj\Debug\net5.0-windows\WpfApp6.csprojAssemblyReference.cache
+C:\Users\bugga\source\repos\WpfApp6\WpfApp6\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\bugga\source\repos\WpfApp6\WpfApp6\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\bugga\source\repos\WpfApp6\WpfApp6\obj\Debug\net5.0-windows\WpfApp6_MarkupCompile.cache
+C:\Users\bugga\source\repos\WpfApp6\WpfApp6\obj\Debug\net5.0-windows\WpfApp6_MarkupCompile.lref

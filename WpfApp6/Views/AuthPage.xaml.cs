@@ -26,7 +26,7 @@ namespace ElectronicDiary.Views
         {
             InitializeComponent();
         }
-
+        //Example
         private void Button_Auth_Click(object sender, RoutedEventArgs e)
         {
             if (string.IsNullOrEmpty(TextBox_Login.Text) || string.IsNullOrEmpty(PasswordBox_Password.Password))
