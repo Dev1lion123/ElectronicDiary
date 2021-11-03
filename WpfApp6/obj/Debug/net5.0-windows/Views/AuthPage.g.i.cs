@@ -77,7 +77,7 @@ namespace ElectronicDiary.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ElectronicDiary;component/views/authpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ElectronicDiary;V1.0.0.0;component/views/authpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\AuthPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

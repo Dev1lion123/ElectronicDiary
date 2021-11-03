@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yAo5Gy2k+5brN3+7RPmTIoPo9JhxJeCOm4/V9U0UQ/ip7X5Xqi35CLhmFEmOXijIt49+MuthoajbCHavJEsdJA==",
+  "dgSpecHash": "xPQyypRxftAHbIn4WiMW1bzvV2PUBi2Y6JO2cz4vmXzchB7NXnwu83iQ77EwVPBjJNu3UyMO2uazd9ZoybTvuw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bugga\\source\\repos\\WpfApp6\\WpfApp6\\ElectronicDiary.csproj",
+  "projectFilePath": "C:\\Users\\bugga\\OneDrive\\Документы\\GitHub\\ElectronicDiary\\WpfApp6\\ElectronicDiary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bugga\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\bugga\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

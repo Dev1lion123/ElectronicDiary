@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bugga\\source\\repos\\WpfApp6\\WpfApp6\\ElectronicDiary.csproj": {}
+    "C:\\Users\\bugga\\OneDrive\\Документы\\GitHub\\ElectronicDiary\\WpfApp6\\ElectronicDiary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bugga\\source\\repos\\WpfApp6\\WpfApp6\\ElectronicDiary.csproj": {
+    "C:\\Users\\bugga\\OneDrive\\Документы\\GitHub\\ElectronicDiary\\WpfApp6\\ElectronicDiary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bugga\\source\\repos\\WpfApp6\\WpfApp6\\ElectronicDiary.csproj",
+        "projectUniqueName": "C:\\Users\\bugga\\OneDrive\\Документы\\GitHub\\ElectronicDiary\\WpfApp6\\ElectronicDiary.csproj",
         "projectName": "ElectronicDiary",
-        "projectPath": "C:\\Users\\bugga\\source\\repos\\WpfApp6\\WpfApp6\\ElectronicDiary.csproj",
+        "projectPath": "C:\\Users\\bugga\\OneDrive\\Документы\\GitHub\\ElectronicDiary\\WpfApp6\\ElectronicDiary.csproj",
         "packagesPath": "C:\\Users\\bugga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bugga\\source\\repos\\WpfApp6\\WpfApp6\\obj\\",
+        "outputPath": "C:\\Users\\bugga\\OneDrive\\Документы\\GitHub\\ElectronicDiary\\WpfApp6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bugga\\AppData\\Roaming\\NuGet\\NuGet.Config",

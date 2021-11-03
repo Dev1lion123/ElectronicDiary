@@ -62,7 +62,7 @@ namespace WpfApp6 {
             
             #line default
             #line hidden
-            System.Uri resourceLocater = new System.Uri("/ElectronicDiary;component/app.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ElectronicDiary;V1.0.0.0;component/app.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\App.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
