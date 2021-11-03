@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ElectronicDiary.Entities
 {
@@ -9,10 +10,12 @@ namespace ElectronicDiary.Entities
         public int Id { get; set; }
 
         //[ForeignKey("ID_Teacher")]
+        [Index]
         public int TeacherId { get; set; }
         public Teacher Teacher { get; set; }
 
         //[ForeignKey("ID_Group")]
+        [Index]
         public int GroupId { get; set; }
         public Group Group { get; set; }
 
