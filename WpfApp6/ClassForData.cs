@@ -36,6 +36,6 @@ namespace ElectronicDiary
 
             return res;
         }
-        public static DB_Context Entity = new DB_Context();
+        public static DbStudents Entity = new DbStudents();
     }
 }

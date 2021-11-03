@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace ElectronicDiary.Migrations
 {
-    [DbContext(typeof(DB_Context))]
+    [DbContext(typeof(DbStudents))]
     [Migration("20211102220101_ElectronicDiaryMigration")]
     partial class ElectronicDiaryMigration
     {

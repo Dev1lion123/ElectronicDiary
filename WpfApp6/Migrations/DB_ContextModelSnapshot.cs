@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace ElectronicDiary.Migrations
 {
-    [DbContext(typeof(DB_Context))]
+    [DbContext(typeof(DbStudents))]
     partial class DB_ContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

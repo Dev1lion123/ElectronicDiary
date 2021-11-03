@@ -23,12 +23,12 @@ namespace ElectronicDiary.Views
     /// </summary>
     public partial class TeacherPage : Page, INotifyPropertyChanged
     {
-        public ObservableCollection<Teacher_Groups> AllTeacher_Groups { get; set; }
+        public ObservableCollection<TeacherGroup> AllTeacher_Groups { get; set; }
         public TeacherPage()
         {
             InitializeComponent();
             DataContext = this;
-            AllTeacher_Groups = ClassForData.Entity.Teacher_Groups.Where(it => it.ID_Teacher == ClassForData.TeacherID).ToObservableCollection();
+            AllTeacher_Groups = ClassForData.Entity.TeacherGroups.Where(it => it.TeacherId == ClassForData.TeacherID).ToObservableCollection();
 
         }
 
@@ -49,8 +49,8 @@ namespace ElectronicDiary.Views
         }
         private void GroupList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Teacher_Groups groups1 = GroupList.SelectedItem as Teacher_Groups;
-            SelectedGroups = ClassForData.Entity.Student.Where(it => it.ID_Group == groups1.ID_Group).ToObservableCollection();
+            TeacherGroup groups1 = GroupList.SelectedItem as TeacherGroup;
+            SelectedGroups = ClassForData.Entity.Students.Where(it => it.GroupId == groups1.GroupId).ToObservableCollection();
             if (SelectedGroups.Any())
             {
                 StudentsDataGrid.ItemsSource = SelectedGroups;

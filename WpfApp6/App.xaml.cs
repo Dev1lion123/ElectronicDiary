@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using ElectronicDiary.Entities;
 using System.Windows;
 
 namespace WpfApp6
@@ -13,5 +8,12 @@ namespace WpfApp6
     /// </summary>
     public partial class App : Application
     {
+        private void OnStartup(object sender, StartupEventArgs e)
+        {
+
+            using DbStudents db = new();
+            db.Database.EnsureCreated();
+
+        }
     }
 }

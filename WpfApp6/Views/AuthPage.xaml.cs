@@ -37,7 +37,7 @@ namespace ElectronicDiary.Views
             else
             {
                 //Example
-                using (var db = new DB_Context())
+                using (var db = new DbStudents())
                 {
                     var user = db.Users
                         .AsNoTracking()
@@ -48,18 +48,18 @@ namespace ElectronicDiary.Views
                     }
                     else
                     {
-                        ClassForData.UserID = user.ID;
+                        ClassForData.UserID = user.Id;
 
-                        switch (user.ID_Role)
+                        switch (user.RoleId)
                         {
                             case 1:
-                                var teacherID = db.Teachers.AsNoTracking().FirstOrDefault(it => it.ID_User == ClassForData.UserID);
-                                ClassForData.TeacherID = teacherID.ID;
+                                var teacherID = db.Teachers.AsNoTracking().FirstOrDefault(it => it.UserId == ClassForData.UserID);
+                                ClassForData.TeacherID = teacherID.Id;
                                 NavigationService.Navigate(new TeacherPage());
                                 break;
                             case 2:
-                                var group = db.Student.AsNoTracking().FirstOrDefault(it => it.ID_User == ClassForData.UserID);
-                                ClassForData.GroupID = group.ID_Group;
+                                var group = db.Students.AsNoTracking().FirstOrDefault(it => it.UserId == ClassForData.UserID);
+                                ClassForData.GroupID = group.GroupId;
                                 NavigationService.Navigate(new StudentPage());
                                 break;
                         }
