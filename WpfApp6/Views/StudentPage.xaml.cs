@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ElectronicDiary.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,7 @@ namespace ElectronicDiary.Views
         public StudentPage()
         {
             InitializeComponent();
+            DataContext = new StudentPageViewModel();
         }
         private void Exit_Click(object sender, RoutedEventArgs e)
         {

@@ -10,6 +10,7 @@ namespace ElectronicDiary
 {
     public static class ClassForData // Класс для передачи данных между формами (Знаю, что можно обойтись без него, но пока что так, пока не решим основные задачи
     {
+        // Проверка
         public static int UserID { get; set; }
         public static int GroupID { get; set; }
         public static int TeacherID { get; set; }
@@ -33,7 +34,6 @@ namespace ElectronicDiary
                     res[i, j] = data[i][j];
                 }
             }
-
             return res;
         }
         public static DbStudents Entity = new DbStudents();

@@ -8,12 +8,12 @@ namespace WpfApp6
     /// </summary>
     public partial class App : Application
     {
-        private void OnStartup(object sender, StartupEventArgs e)
-        {
+        //private void OnStartup(object sender, StartupEventArgs e)
+        //{
 
-            using DbStudents db = new();
-            db.Database.EnsureCreated();
+        //    using DbStudents db = new();
+        //    db.Database.EnsureCreated();
 
-        }
+        //}
     }
 }
