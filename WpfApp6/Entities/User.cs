@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ElectronicDiary.Entities
 {
@@ -7,6 +8,8 @@ namespace ElectronicDiary.Entities
     {
         [Key]
         public int Id { get; set; }
+
+        [Index(IsUnique = true)]
         public string Login { get; set; }
         public string Password { get; set; }
         public int RoleId { get; set; }

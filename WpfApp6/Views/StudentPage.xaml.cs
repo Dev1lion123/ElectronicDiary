@@ -19,7 +19,7 @@ namespace ElectronicDiary.Views
     /// <summary>
     /// Логика взаимодействия для StudentPage.xaml
     /// </summary>
-    public partial class StudentPage : Page
+    public partial class StudentPage : UserControl
     {
         public StudentPage()
         {
@@ -28,7 +28,7 @@ namespace ElectronicDiary.Views
         }
         private void Exit_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService?.Navigate(new AuthPage());
+            //NavigationService?.Navigate(new AuthPage());
         }
     }
 }

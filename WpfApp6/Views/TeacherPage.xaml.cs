@@ -21,7 +21,7 @@ namespace ElectronicDiary.Views
     /// <summary>
     /// Логика взаимодействия для TeacherPage.xaml
     /// </summary>
-    public partial class TeacherPage : Page, INotifyPropertyChanged
+    public partial class TeacherPage : UserControl, INotifyPropertyChanged
     {
         public ObservableCollection<TeacherGroup> AllTeacher_Groups { get; set; }
         public TeacherPage()
@@ -64,7 +64,7 @@ namespace ElectronicDiary.Views
 
         private void Exit_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService?.Navigate(new AuthPage());
+            //NavigationService?.Navigate(new AuthPage());
         }
     }
 }

@@ -3,10 +3,35 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WpfApp6"
+        xmlns:local="clr-namespace:WpfApp6" xmlns:pages="clr-namespace:ElectronicDiary.Views"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Source="Views/AuthPage.xaml"/>
-    </Grid>
+        Title="MainWindow" Height="450" Width="800"
+        DataContext="{DynamicResource mainVM}">
+    <FrameworkElement.Style>
+        <Style TargetType="Window">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding ViewMode}" Value="Authorization">
+                    <Setter Property="Content">
+                        <Setter.Value>
+                            <pages:AuthPage/>
+                        </Setter.Value>
+                    </Setter>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding ViewMode}" Value="Student">
+                    <Setter Property="Content">
+                        <Setter.Value>
+                            <pages:StudentPage/>
+                        </Setter.Value>
+                    </Setter>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding ViewMode}" Value="Teacher">
+                    <Setter Property="Content">
+                        <Setter.Value>
+                            <pages:TeacherPage/>
+                        </Setter.Value>
+                    </Setter>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </FrameworkElement.Style>
 </Window>

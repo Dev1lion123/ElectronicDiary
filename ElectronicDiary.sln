@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectronicDiary", "WpfApp6\ElectronicDiary.csproj", "{C8C3C23C-234D-4A74-8FAC-57901587F4B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElectronicDiary", "WpfApp6\ElectronicDiary.csproj", "{C8C3C23C-234D-4A74-8FAC-57901587F4B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{010E3403-72D3-4C53-B854-7BC803DEA60A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C8C3C23C-234D-4A74-8FAC-57901587F4B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8C3C23C-234D-4A74-8FAC-57901587F4B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8C3C23C-234D-4A74-8FAC-57901587F4B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{010E3403-72D3-4C53-B854-7BC803DEA60A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010E3403-72D3-4C53-B854-7BC803DEA60A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010E3403-72D3-4C53-B854-7BC803DEA60A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010E3403-72D3-4C53-B854-7BC803DEA60A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
