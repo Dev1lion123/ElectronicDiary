@@ -1,11 +1,7 @@
 ﻿using ElectronicDiary.Entities;
 using Microsoft.EntityFrameworkCore;
 using Simplified;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ElectronicDiary.ViewModels
 {
@@ -46,10 +42,10 @@ namespace ElectronicDiary.ViewModels
                 switch (dbuser.Role.Title)
                 {
                     case "Преподаватель":
-                        ViewModeCommand.TryExecute(ViewMode.Teacher);
+                        _ = ViewModeCommand.TryExecute(ViewMode.Teacher);
                         break;
                     case "Студент":
-                        ViewModeCommand.TryExecute(ViewMode.Student);
+                        _ = ViewModeCommand.TryExecute(ViewMode.Student);
                         break;
                 }
 

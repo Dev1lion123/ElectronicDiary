@@ -4,9 +4,19 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp6" xmlns:pages="clr-namespace:ElectronicDiary.Views"
+        xmlns:vms="clr-namespace:ElectronicDiary.ViewModels"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
         DataContext="{DynamicResource mainVM}">
+
+    <!--Это Контекст Данных Времени разработки.
+    При исполнении приложения он не учитывается
+    Используется для удобства создания Дизайна-->
+    <d:Window.DataContext>
+        <!--Здесь можно менять значения свойств
+        и сразу в Дзайнере видеть как это влияет на Представление-->
+        <vms:MainViewModel ViewMode="Student"/>
+    </d:Window.DataContext>
     <FrameworkElement.Style>
         <Style TargetType="Window">
             <Style.Triggers>
