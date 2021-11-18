@@ -14,7 +14,7 @@ namespace ElectronicDiary.Entities
     {
         public DbStudents()
         {
-            Database.EnsureDeleted();
+            //Database.EnsureDeleted(); // Зачем удаляете? Вам же нужно сохранять данные, а не каждый раз новую БД делать.
             Database.EnsureCreated();
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
